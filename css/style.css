@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  flex-grow: 1;
+}
+
+h1 {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.phone {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.menu {
+  text-align: center;
+  font-size: 50px;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 25px;
+}
+
+.phone {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../imsges/menu-phone-image.jpg);
+  gap: 20px;
+}
+
+.samsung {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../imsges/samsung.jpg);
+  margin-top: 30px;
+}
+
+.iphone {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../imsges/iphone.jpg);
+  margin-top: 30px;
+}
+
+.redmi {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../imsges/redmi.jpg);
+  margin-top: 30px;
+}
+
+.huawei {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../imsges/huawei.webp);
+  margin-top: 30px;
+}
+
+.section-title {
+  font-size: 55px;
+}
+
+.section-link {
+  font-size: 30px;
+  border: 1px solid transparent;
+  background-color: grey;
+  padding: 12px 24px;
+  border-radius: 8px;
+}
+
+.section-link:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.section-link:active {
+  opacity: 0.5;
+}
+
+.section-info {
+  max-width: 1200px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-wiki {
+  font-size: 30px;
+  border: 2px solid transparent;
+  background-color: mediumblue;
+  padding: 8px 30px;
+  border-radius: 8px;
+  color: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  /* margin-top: 50px; */
+}
+
+.section-wiki:hover {
+  background-color: dodgerblue;
+  color: #fff;
+}
+
+.section-wiki:active {
+  opacity: 0.4;
+}
+
+.section-wrapper {
+  display: flex;
+  gap: 16px;
+  margin-top: 300px;
+}
+
+.samsung .section-wrapper {
+  display: flex;
+  gap: 16px;
+  margin-top: 200px;
+}
+
+.menu a:hover {
+  color: blueviolet;
+}
+
+.menu a:active {
+  opacity: 0.5;
+}
+
+h2 {
+  margin-top: 50px;
+}
